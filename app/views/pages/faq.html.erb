@@ -1,1 +1,34 @@
-faq.html.erb
+<!-- provide custom subtitle for each page -->
+<% content_for(:subtitle) do %>FAQ<% end %>
+
+<div class="container">
+	<h1 class="orange">Frequently Asked Questions</h1>
+
+	<div class="button-div text-right">
+		<!-- todo change this to a meaningful button -->
+		<%= link_to "Action Button", root_path, class: "btn btn-default" %>
+	</div>
+
+	<section id="faq-section">
+		<div class="question">
+			
+			TODO first question&nbsp;&nbsp;<%= render 'layouts/drop_arrows' %>
+		</div>
+		<div class="answer">
+			<p>Todo answer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+
+	</section>
+
+	<div class="button-div text-right">
+		<!-- todo change this to a meaningful button -->
+		<%= link_to "Action Button", root_path, class: "btn btn-default" %>
+	</div>
+	<!-- todo  feedback area - let them add their new questions -->
+</div><!-- end .container

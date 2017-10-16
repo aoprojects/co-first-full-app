@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
 	def thinking
 	end
+
+	def opportunities
+	end
 end

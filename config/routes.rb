@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   get "faq" => "pages#faq"
   get "supplies" => "pages#supplies"
   get "thinking" => "pages#thinking"
-  get "opportunitites" => "pages#opportunities"
+  get "opportunities" => "pages#opportunities"
 
 end

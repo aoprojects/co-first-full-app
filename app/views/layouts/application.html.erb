@@ -36,9 +36,10 @@
   <body>
   	<%= render 'layouts/navigation' %>
   	<main>
-	    <%= yield %>
+  		<div class="container text-center">
+		    <%= yield %>
+		</div><!-- end .container -->    
     </main>
     <%= render 'layouts/footer' %>
   </body>
-
 </html>

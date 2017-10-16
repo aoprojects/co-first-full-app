@@ -1,4 +1,10 @@
 <nav>
+	<div id="nav-brand-area">
+		<%= link_to root_path do %>
+			<%= image_tag('co-logo-v5', alt: "Conscious Office", id: "nav-logo", class: "img-responsive") %>
+			<p id="nav-brand-text">Conscious Office</p>
+		<% end %>
+	</div>
 	<ul>
 		<li><%= link_to "Home", root_path %></li>
 		<li><%= link_to "Opportunities", opportunities_path %></li>

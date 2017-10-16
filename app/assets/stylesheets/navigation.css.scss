@@ -1,3 +1,28 @@
 nav	{
-	
+	padding: 20px;
+	#nav-brand-area {
+		display: block;
+		float: left;
+		#nav-logo {
+			max-height: 50px;
+		}
+		#nav-brand-text {
+			position: fixed;
+			top: 30px;
+			left: 80px;
+			font-size: 25px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 200;
+		}
+	}/*nav-brand-area*/
+}/*end nav*/
+
+/*to move the rest of the site down to accomodate for the extra space taken by the fixed navbar*/
+main {
+	position: relative;
+	top: 100px;
+}
+footer {
+	position: relative;
+	top: 100px;
 }

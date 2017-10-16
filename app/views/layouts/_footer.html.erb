@@ -3,8 +3,8 @@
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 			<p>
 				<ul>
-					<li>Conscious Supplies</li>
-					<li>Careers&nbsp;&amp;&nbsp;Opportunities</li>
+					<li><%= link_to "Conscious Supplies", supplies_path %></li>
+					<li><%= link_to "Careers & Opportunities", opportunities_path %></li>
 					<!-- <li>Conscious Design</li>
 					<li>Conscious Thinking</li>
 					<li>Conscious Community</li> -->
@@ -14,12 +14,12 @@
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 			<p>
 				<ul>
-					<li>insert logo</li>
-					<!-- insert social media section -->
+					<li><%= link_to root_path do %>
+							<%= image_tag('co-logo-v5', alt: "Conscious Office", id: "footer-logo", class: "img-responsive text-center") %>
+							<p>Conscious&nbsp;Office</p>
+						<% end %>
+					</li>
 					<%= render 'layouts/social' %>
-					<li>Twitter</li>
-					<!-- <li>insert social icon 2</li> -->
-					<!-- <li>insert newsletter</li> -->
 				</ul>
 			</p>
 		</div><!-- end .col -->
@@ -28,7 +28,7 @@
 			<ul>
 					<!-- <li>Log in</li>
 					<li>Create an Account</li> -->
-					<li>FAQ</li>
+					<li><%= link_to "FAQ", faq_path %></li>
 					<!-- <li>Terms and Conditions</li>
 					<li>Privacy Policy</li> -->
 				</ul>

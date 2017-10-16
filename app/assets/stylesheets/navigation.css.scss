@@ -67,3 +67,29 @@ nav ul li a {
 	position: relative;
 	top: 15px;
 }
+
+/*hamburger menu styling begin*/
+
+#hamburger-menu {
+	z-index: 5;
+	position: fixed;
+	top: 15px;
+	right: 10px;
+	max-height: 40px;
+	a {
+		background-color: transparent;
+		border: none;
+		color: white;
+		font-size: 20px;
+	}
+}
+
+
+
+/*hamburger menu styling end*/
+
+
+
+
+
+

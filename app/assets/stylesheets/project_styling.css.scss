@@ -66,18 +66,6 @@ h1, h2 {
 	color: rgba(172,241,166,1.0);
 	font-weight: 300;
 }
-@media only screen and (min-width: 992px) {
-	.left-lower-on-large {
-		text-align: left;
-		position: relative;
-		top: 45px;
-		left: -5px;
-	}
-	#logo-area {
-		position: relative;
-		left: 40px;
-	}
-}/*end media query*/
 li {
 	margin-left: 25px;
 }
@@ -115,12 +103,8 @@ main p {
 		font-size: 25px;
 	}	
 }
-
 #tagline {
-	position: relative;
-	top: -10px;
-	margin-top: -18px;
-	margin-bottom: 10px;
+
 }
 .this-page a {
 	/*background-color: #484848;*/

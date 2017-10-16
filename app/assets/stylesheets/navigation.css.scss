@@ -1,15 +1,22 @@
 nav	{
+	height: 70px;
 	padding: 20px;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	background-color: #333 !important;
+	z-index: 10;
 	#nav-brand-area {
-		display: block;
-		float: left;
 		#nav-logo {
 			max-height: 50px;
+			position: fixed;
+			top: 15px;
+			left: 20px;
 		}
 		#nav-brand-text {
 			position: fixed;
-			top: 30px;
-			left: 80px;
+			top: 23px;
+			left: 75px;
 			font-size: 25px;
 			font-family: 'Lato', sans-serif;
 			font-weight: 200;
@@ -20,9 +27,35 @@ nav	{
 /*to move the rest of the site down to accomodate for the extra space taken by the fixed navbar*/
 main {
 	position: relative;
-	top: 100px;
+	top: 70px;
 }
 footer {
 	position: relative;
-	top: 100px;
+	top: 70px;
+}
+
+
+nav ul {
+	position: fixed;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+	list-style: none;
+	color: rgba(172,241,166,1.0);
+	padding-right: 20px;
+}
+
+nav ul li {
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	padding: 15px 5px;
+/*	color: rgba(172,241,166,0.5) !important;*/
+	position: relative;
+	top: -1;
+	right: -1;
+	color: rgba(225,225,225,0.5);
+}
+nav ul li a {
+	font-weight: 100;
 }

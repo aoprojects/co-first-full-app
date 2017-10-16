@@ -116,39 +116,6 @@ main p {
 	}	
 }
 
-nav {
-	position: fixed;
-	height: 60px;
-	width: 100vw;
-	top: 0;
-	background-color: #333 !important;
-	z-index: 10;
-}
-
-nav ul {
-	position: fixed;
-	top: 0;
-	right: 0;
-	text-decoration: none;
-	list-style: none;
-	color: rgba(172,241,166,1.0);
-	padding-right: 20px;
-}
-
-nav ul li {
-	float: left;
-	text-align: center;
-	font-size: 16px;
-	padding: 15px 5px;
-/*	color: rgba(172,241,166,0.5) !important;*/
-	position: relative;
-	top: -1;
-	right: -1;
-	color: rgba(225,225,225,0.5);
-}
-nav ul li a {
-	font-weight: 100;
-}
 #tagline {
 	position: relative;
 	top: -10px;

@@ -72,7 +72,7 @@ nav ul li a {
 
 /*hamburger menu styling begin*/
 
-#hamburger-menu {
+#navigation-hamburger {
 	z-index: 5;
 	position: fixed;
 	top: 15px;
@@ -85,7 +85,15 @@ nav ul li a {
 		font-size: 20px;
 	}
 }
+.visible {
+	display: inline;
+}
+#hamburger_clicked {
+	background-color: #fff;
+	border-radius: 0;
+}
 
+/*to allow navigation to show when on */
 @media only screen and (max-width: 767px) {
 	main {
 		position: relative;
@@ -121,9 +129,11 @@ nav ul li a {
 		position: relative;
 		top: 0;
 	}
+	#navigation-list {
+		display: none;
+	}/*for hiding the nav dropdown on small by default, before clicked by hamburger*/
 }/*xs*/
 /*hamburger menu styling end*/
-
 
 
 

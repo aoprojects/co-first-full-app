@@ -26,7 +26,6 @@ nav	{
 		}
 	}/*nav-brand-area*/
 }/*end nav*/
-
 /*to move the rest of the site down to accomodate for the extra space taken by the fixed navbar*/
 main {
 	position: relative;
@@ -36,8 +35,6 @@ footer {
 	position: relative;
 	top: 80px;
 }
-
-
 nav ul {
 	position: fixed;
 	top: 0;
@@ -50,7 +47,6 @@ nav ul {
 	margin: 0;
 	padding-right: 10px;
 }
-
 nav ul li {
 	float: left;
 	text-align: center;
@@ -62,16 +58,13 @@ nav ul li {
 	color: rgba(225,225,225,0.5);
 	top: -5px;
 	margin: 0;
-
 }
 nav ul li a {
 	font-weight: 100;
 	position: relative;
 	top: 15px;
 }
-
 /*hamburger menu styling begin*/
-
 #navigation-hamburger {
 	z-index: 5;
 	position: fixed;
@@ -92,12 +85,10 @@ nav ul li a {
 	background-color: #fff;
 	border-radius: 0;
 }
-
 /*to allow navigation to show when on */
 @media only screen and (max-width: 767px) {
 	main {
 		position: relative;
-		top: 150px;
 	}	
 	nav {
 		width: 100vw;
@@ -132,6 +123,16 @@ nav ul li a {
 	#navigation-list {
 		display: none;
 	}/*for hiding the nav dropdown on small by default, before clicked by hamburger*/
+	#navigation-list.toggled {
+		display: inline !important;
+		transition: 0.3s ease;
+	}
+	main.lowered {
+		position: relative;
+		top: 150px;
+		transition: 0.3s ease;
+	}
+
 }/*xs*/
 /*hamburger menu styling end*/
 

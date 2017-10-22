@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get "supplies" => "pages#supplies"
   get "thinking" => "pages#thinking"
   get "opportunities" => "pages#opportunities"
+  get "new_customer" => "pages#new_customer"
 
 end

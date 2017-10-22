@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
 	def opportunities
 	end
+
+	def new_customer
+	end
 end

@@ -5,32 +5,44 @@ Designed by Responsive Redesign
 code@responsiveredesign.io
 */
 
+$light-green: rgba(111,168,111,1.0);
+$green: rgba(50,131,50,1.0);
+$dark-green: rgba(0,60,0,1.0);
+
 a {
-	color: white;
+	color: black !important;
 	font-weight: bold;
 	text-decoration: none;
 }
+ul a {
+	color: black;
+}
+p a {
+	color: black;
+}
 a:hover {
-	color: rgba(172,241,166,1.0);
+	/*green*/
+	color: $green;
 	font-weight: bold;
 	text-decoration: none;
 }
 body {
-	background: #333;
-	color: #eee;
+	background: #fff;
+	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 }
 .btn-success {
 	background-color: transparent;
 	border-radius: 0;
-	color: white;
+	color: green;
 	border: 1px solid white;
 }
 .btn-success:hover {
-	background-color: rgba(172,241,166,0.3);
+	/*green*/
+	background-color: $green;
 	border-radius: 0;
-	color: white;
+	color: green;
 	border: 1px solid white;
 	transition: 0.1s ease-in;
 }
@@ -59,11 +71,11 @@ footer a, footer p {
 	color: gray !important;
 }
 .green {
-	color: rgba(172,241,166,1.0) !important;
+	color: $green !important;
 }
 
 h1, h2 {
-	color: rgba(172,241,166,1.0);
+	color: $green;
 	font-weight: 300;
 }
 li {
@@ -73,7 +85,7 @@ p, ul {
 	font-weight: 100;
 	font-size: 18px;
 	font-family: 'Lato', sans-serif;
-	color: #eee;
+	color: black;
 	padding: 5px;
 }
 
@@ -109,8 +121,7 @@ main p {
 
 }
 .this-page a {
-	/*background-color: #484848;*/
-	color: rgba(172,241,166,1.0) !important;
+	color: $green !important;
 }
 .white {
 	color: rgba(225,225,225,1.0) !important;

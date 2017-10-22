@@ -6,3 +6,4 @@ $( document ).ready(function() {
 		$("main").toggleClass("lowered");
 	});
 });
+// todo be able to click hamburger after clicked nav links already

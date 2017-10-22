@@ -10,7 +10,7 @@ $green: rgba(50,131,50,1.0);
 $dark-green: rgba(0,60,0,1.0);
 
 a {
-	color: black !important;
+	color: $green;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -18,13 +18,17 @@ ul a {
 	color: black;
 }
 p a {
-	color: black;
+	color: $green;
 }
 a:hover {
 	/*green*/
 	color: $green;
 	font-weight: bold;
 	text-decoration: none;
+}
+.action-area {
+	/*min-height: 100px;*/
+	margin: 20px auto;
 }
 body {
 	background: #fff;
@@ -35,16 +39,26 @@ body {
 .btn-success {
 	background-color: transparent;
 	border-radius: 0;
-	color: green;
-	border: 1px solid white;
+	color: $light-green;
+	border: 1px solid $green;
+	a {
+		color: $green;
+	}
 }
 .btn-success:hover {
-	/*green*/
-	background-color: $green;
+	background-color: $light-green;
 	border-radius: 0;
-	color: green;
-	border: 1px solid white;
-	transition: 0.1s ease-in;
+	border: 1px solid $green;
+	transition: 0.2s ease;
+	a {
+		color: #eee !important;
+	}
+}
+.btn-success:clicked {
+	text-decoration: none;
+}
+.btn-success:visited {
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 991px) {
@@ -122,6 +136,9 @@ main p {
 }
 .this-page a {
 	color: $green !important;
+}
+#welcome-area {
+	margin-top: 5vh;
 }
 .white {
 	color: rgba(225,225,225,1.0) !important;

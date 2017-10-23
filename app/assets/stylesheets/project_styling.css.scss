@@ -92,6 +92,12 @@ h1, h2, h3 {
 	color: $green;
 	font-weight: 300;
 }
+@media only screen and (min-width: 768px) {
+	img.icon-columns {
+	margin-top: 30px;
+	}
+	/*for icons to be vertically centered on larger screens*/
+}
 li {
 	margin-left: 25px;
 }
@@ -108,7 +114,6 @@ p, ul, ol {
 	color: black;
 	padding: 5px;
 }
-
 #logo-area img {
 	width: 90%;
 	max-width: 150px;
@@ -119,19 +124,15 @@ main {
 main#index .container {
 	padding-top: 20vh;
 }
-
 main#opportunities .container {
 	padding-top: 10vh;
 }
-
 main p {
 	font-weight: 100;
 	/*font-family: Arial;*/
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-
 }
-
 @media only screen and (max-width: 500px) {
 	h1 {
 		font-size: 25px;

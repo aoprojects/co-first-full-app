@@ -95,7 +95,10 @@ h1, h2, h3 {
 li {
 	margin-left: 25px;
 }
-p, ul {
+ol {
+	color: black;
+}
+p, ul, ol {
 	font-weight: 100;
 	font-size: 18px;
 	font-family: 'Lato', sans-serif;

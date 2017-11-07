@@ -4,9 +4,6 @@ $green: rgba(50,131,50,1.0);
 $dark-green: rgba(0,60,0,1.0);
 
 nav	{
-/*	background-color: #4d4d4d;*/
-	/*background-color: #404040;*/
-	/*light gray background is below*/
 	background: #f7f7f7;
 	height: 80px;
 	padding: 20px;
@@ -21,7 +18,7 @@ nav	{
 			position: fixed;
 			top: 5px;
 			left: 0px;
-			z-index: 2;
+			z-index: 11;
 		}
 		#nav-brand-text {
 			position: fixed;

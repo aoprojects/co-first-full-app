@@ -2,7 +2,7 @@
 	<div id="nav-brand-area">
 		<%= link_to root_path do %>
 			<%= image_tag('CO-long-logo-v1', alt: "Conscious Office", id: "nav-logo", class: "img-responsive") %>
-			<p id="nav-brand-text" class="hidden">Conscious Office</p>
+			<%= content_tag(:p, "Conscious Office", class: "hidden", id: "nav-brand-text") %>
 		<% end %>
 	</div>
     <div id="navigation-hamburger" class="hidden-md hidden-lg hidden-sm">

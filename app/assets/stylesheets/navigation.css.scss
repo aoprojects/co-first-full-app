@@ -14,6 +14,9 @@ nav	{
 	#nav-brand-area {
 		min-height: 70px;
 		a {min-height: 70px;}
+		.logo-brand-text {
+			max-width: 80%;
+		}
 		#nav-logo {
 			height: 70px;
 			max-height: 70px;
@@ -32,6 +35,7 @@ nav	{
 			font-weight: 200;
 			z-index: 1;
 			color: $dark-green;
+
 		}
 	}/*nav-brand-area*/
 }/*end nav*/

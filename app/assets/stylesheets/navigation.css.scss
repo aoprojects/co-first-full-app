@@ -140,15 +140,15 @@ nav ul li a {
 		display: inline !important;
 		transition: 0.3s ease;
 	}
-	main.lowered {
-		position: relative;
-		top: 150px;
-		transition: 0.3s ease;
-	}
 	#navigation-hamburger {
 		display: inline;
 	}
 }/*xs*/
+main.lowered, footer.lowered {
+	position: relative;
+	top: 150px;
+	
+}
 /*hamburger menu styling end*/
 
 

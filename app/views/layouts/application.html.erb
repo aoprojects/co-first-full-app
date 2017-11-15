@@ -11,12 +11,12 @@
 	  gtag('config', 'UA-107992193-1');
 	</script>
 	<!-- end googl analytics tracking code -->
-	<!-- 
-	are the following included in csrf meta tags? 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, maximum-scale=1">
-	-->
-    <title>Conscious Office<%= content_for(:subtitle) %></title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+	<meta name="author" content="ResponsiveRedesign.io">	
+	<title>Conscious Office<%= content_for(:subtitle) %></title>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
 
     <!-- for bootstrap cdn for js only. TODO replace with a gem for bootstrap js? -->

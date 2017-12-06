@@ -13,20 +13,23 @@ class LeadsController < ApplicationController
 	end
 
 	def create
+		@lead = Lead.new(lead_params)
 
+		if @lead.save
+			redirect_to @lead, notice: "Your information was successfully saved."
+		else
+			render 'new', notice: "Your information was not saved. Either try again, or email us directly at sales@ConsciousOffice.io"
+		end
 	end
 # todo make this possible only if admin user
-	def edit
-
-	end
+	# def edit
+	# end
 # todo make this possible only if admin user
-	def update
-
-	end
+	# def update
+	# end
 # todo make this possible only if admin user
-	def destroy
-
-	end
+	# def destroy
+	# end
 
 private
 	def lead_params

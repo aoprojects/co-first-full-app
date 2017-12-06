@@ -1,2 +1,30 @@
 /*this sheet contains custom styles for forms and input fields*/
-
+/*several styles seem to be carrying over from bootstrap*/
+.field-input-area input, textarea {
+	margin: 10px 0 10px 0;
+	font-size: 15px;
+	box-shadow-top: none;
+	box-shadow-left: none;
+	box-shadow-right: none;	
+	box-shadow-bottom: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	border-radius: 0;
+}
+.field-input-area input:hover, .field-input-area input:active, .field-input-area input:focus, textarea:hover, textarea:active, textarea:focus {
+	/* todo why upon focus is it turning blue outline?*/
+	box-shadow-top: none;
+	box-shadow-left: none;
+	box-shadow-right: none;
+	box-shadow-bottom: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid green;
+	transition: 0.1s ease;
+	width: 100%;
+	border-radius: 0;
+}

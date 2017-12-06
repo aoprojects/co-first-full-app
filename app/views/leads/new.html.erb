@@ -3,49 +3,54 @@
 
 <p class="bold">Let's get started:</p>
 
-<%= form_for(@lead) do |l| %>
 
-	<span class="hidden">
-		<%= l.label :name %>
-	</span>
-	<span class="field-input-area">
-		<%= l.text_field :name, class: 'form-control', placeholder: "Your Name", autofocus: true %>
-	</span><!-- end .field-input-area -->
+<div class="row">
+	<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12">
 
-	<span class="field-label hidden">
-		<%= l.label :comany %>
-	</span>
-	<span class="field-input-area">
-		<%= l.text_field :company, class: 'form-control', placeholder: "Your Company" %>
-	</span><!-- end .field-input-area -->
+		<%= form_for(@lead) do |l| %>
 
-	<span class="field-label hidden">
-		<%= l.label :company_size %>
-	</span>
-	<span class="field-input-area">
-		<%= l.text_field :company_size, class: 'form-control', placeholder: "How many employees work in-office?" %>
-	</span><!-- end .field-input-area -->
+			<span class="hidden">
+				<%= l.label :name %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :name, class: 'form-control', placeholder: "Your Name", autofocus: true %>
+			</span><!-- end .field-input-area -->
 
-	<span class="field-label hidden">
-		<%= l.label :how_you_found_us %>
-	</span>
-	<span class="field-input-area">
-		<%= l.text_field :how_you_found_us, class: 'form-control', placeholder: "How did you find us?" %>
-	</span><!-- end .field-input-area -->
+			<span class="field-label hidden">
+				<%= l.label :comany %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :company, class: 'form-control', placeholder: "Your Company" %>
+			</span><!-- end .field-input-area -->
 
-	<span class="field-label hidden">
-		<%= l.label :sustainability_goals %>
-	</span>
-	<span class="field-input-area">
-		<%= l.text_area :sustainability_goals, class: 'form-control', placeholder: "What are your sustainability goals?" %>
-	</span><!-- end .field-input-area -->
+			<span class="field-label hidden">
+				<%= l.label :company_size %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :company_size, class: 'form-control', placeholder: "How many employees work in-office?" %>
+			</span><!-- end .field-input-area -->
 
-	<p class="text-center action-area">
-		<%= l.submit class: 'submit-button' %>
-		<button class="btn btn-success btn-lg"><%= link_to "Become a Client", new_customer_path %></button>
-	</p>
+			<span class="field-label hidden">
+				<%= l.label :how_you_found_us %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :how_you_found_us, class: 'form-control', placeholder: "How did you find us?" %>
+			</span><!-- end .field-input-area -->
 
-<% end %><!-- end form for new customer lead -->
+			<span class="field-label hidden">
+				<%= l.label :sustainability_goals %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_area :sustainability_goals, class: 'form-control', placeholder: "What are your sustainability goals?" %>
+			</span><!-- end .field-input-area -->
 
+			<p class="text-center action-area">
+				<%= l.submit class: 'submit-button' %>
+				<button class="btn btn-success btn-lg"><%= link_to "Become a Client", new_customer_path %></button>
+			</p>
 
+		<% end %><!-- end form for new customer lead -->
+
+	</div><!-- end .col -->
+</div><!-- end .row -->
 

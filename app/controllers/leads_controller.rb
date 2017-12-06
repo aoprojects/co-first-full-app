@@ -5,7 +5,6 @@ class LeadsController < ApplicationController
 	end
 # todo make this possible only if admin user
 	def show 
-
 	end
 
 	def new
@@ -33,7 +32,7 @@ class LeadsController < ApplicationController
 
 private
 	def lead_params
-		params.require(:lead).permit(:name, :company, :company_size, :how_you_found_us, :sustainability_goals)
+		params.require(:lead).permit(:name, :company, :company_size, :how_you_found_us, :sustainability_goals, :email, :phone)
 	end
 
 end

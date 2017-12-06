@@ -1,9 +1,9 @@
-class PagesController < ApplicationController
-# make this possible only if admin user
+class LeadsController < ApplicationController
+# todo make this possible only if admin user
 	def index
 		@leads = Leads.all
 	end
-# make this possible only if admin user
+# todo make this possible only if admin user
 	def show 
 
 	end
@@ -15,15 +15,15 @@ class PagesController < ApplicationController
 	def create
 
 	end
-
+# todo make this possible only if admin user
 	def edit
 
 	end
-
+# todo make this possible only if admin user
 	def update
 
 	end
-
+# todo make this possible only if admin user
 	def destroy
 
 	end

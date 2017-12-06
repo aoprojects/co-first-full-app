@@ -1,0 +1,18 @@
+<!-- provide custom subtitle for each page -->
+<% content_for(:subtitle) do %> | New Customer Form<% end %>
+
+
+<p class="bold">Let's get started:</p>
+
+<%= form_for(@lead) do |l| %>
+
+
+	<p class="text-center action-area">
+		<%= l.submit class: 'submit-button' %>
+		<button class="btn btn-success btn-lg"><%= link_to "Become a Client", new_customer_path %></button>
+	</p>
+
+<% end %><!-- end form for new customer lead -->
+
+
+

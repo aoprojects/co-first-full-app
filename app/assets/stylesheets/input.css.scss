@@ -2,7 +2,7 @@
 /*several styles seem to be carrying over from bootstrap*/
 .field-input-area input, textarea {
 	margin: 10px 0 10px 0;
-	font-size: 15px;
+	font-size: 16px;
 	box-shadow-top: none;
 	box-shadow-left: none;
 	box-shadow-right: none;	
@@ -16,6 +16,7 @@
 	outline-width: 0;	
 	line-height: 30px;
 	color: green;
+	font-weight: 200;
 }
 .field-input-area input:hover, .field-input-area input:active, .field-input-area input:focus, textarea:hover, textarea:active, textarea:focus {
 	/* todo why upon focus is it turning blue outline?*/

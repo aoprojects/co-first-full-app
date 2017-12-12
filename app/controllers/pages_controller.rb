@@ -22,4 +22,8 @@ class PagesController < ApplicationController
 
 	def new_customer
 	end
+
+	def new_lead_confirmation_agile
+	end
+	
 end

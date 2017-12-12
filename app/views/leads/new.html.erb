@@ -1,0 +1,73 @@
+<!-- provide custom subtitle for each page -->
+<% content_for(:subtitle) do %> | New Customer Form<% end %>
+
+<h2>Become a New Client</h2>
+<p class="bold">We are excited to work with you. <br>First, we have 7 questions...</p>
+
+
+<div class="row">
+	<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12">
+
+		<%= form_for(@lead) do |l| %>
+
+			<span class="field-label hidden">
+				<%= l.label :name %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :name, placeholder: "Your Name", autofocus: true %>
+			</span><!-- end .field-input-area -->
+
+			<span class="field-label hidden">
+				<%= l.label :company %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :company, placeholder: "Your Company" %>
+			</span><!-- end .field-input-area -->
+
+			<span class="field-label hidden">
+				<%= l.label :email %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :email, placeholder: "Your Email Address" %>
+			</span><!-- end .field-input-area -->
+
+			<span class="field-label hidden">
+				<%= l.label :phone %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :phone, placeholder: "Your Phone Number" %>
+			</span><!-- end .field-input-area -->
+
+			<span class="field-label hidden">
+				<%= l.label :company_size %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :company_size, placeholder: "How many employees work in-office?" %>
+			</span><!-- end .field-input-area -->
+
+			<span class="field-label hidden">
+				<%= l.label :how_you_found_us %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_field :how_you_found_us, placeholder: "How did you find us?" %>
+			</span><!-- end .field-input-area -->
+
+			<span class="field-label hidden">
+				<%= l.label :sustainability_goals %>
+			</span>
+			<span class="field-input-area">
+				<%= l.text_area :sustainability_goals, placeholder: "What are your sustainability goals?" %>
+			</span><!-- end .field-input-area -->
+			<br><br>
+			<p>Thanks for your answers.	<br>Let's do this.
+			</p>
+
+			<p class="text-center action-area">
+				<%= l.submit "Become a Client", class: 'btn btn-success btn-lg' %>
+			</p>
+
+		<% end %><!-- end form for new customer lead -->
+
+	</div><!-- end .col -->
+</div><!-- end .row -->
+

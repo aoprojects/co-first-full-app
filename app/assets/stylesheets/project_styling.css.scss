@@ -148,6 +148,16 @@ main p {
 		font-size: 25px;
 	}	
 }
+.pages_faq {
+
+	ol li {
+		padding: 15px;
+		.answer p {
+			color: gray;
+			padding: 5px;
+		}
+	}
+}
 #tagline {
 
 }

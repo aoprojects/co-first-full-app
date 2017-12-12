@@ -3,10 +3,10 @@
 
 <div class="container">
 	<h1 class="orange">Frequently Asked Questions</h1>
-
+	<br>
 	<div class="button-div text-right">
 		<!-- todo change this to a meaningful button -->
-		<%= link_to "Action Button", root_path, class: "btn btn-success" %>
+		<%= link_to "Create an Account", new_customer_path, class: "btn btn-success" %>
 	</div>
 	<section id="faq-section">
 		<ol>
@@ -19,13 +19,16 @@
 				</div>
 			</li><!-- end one question -->
 			<li>
-				
+				<div class="question">
+					Do you sell only sustainable products?&nbsp;&nbsp;<%= render 'layouts/drop_arrows' %>
+				</div>
+				<div class="answer">
+					<p>No...</p>
+					<p>Although we prefer and prioritize sustainable products, we can supply pretty much whatever your office needs.  We work hard to provide you with sustainable alternatives to not-so-sustainable products, and over time, we want to work in partnership with you to make sustainability an easy choice.</p>
+				</div>				
 			</li><!-- end another question -->
 		</ol>
 	</section>
-	<div class="button-div text-right">
-		<!-- todo change this to a meaningful button -->
-		<%= link_to "Action Button", root_path, class: "btn btn-success" %>
-	</div>
+
 	<!-- todo  feedback area - let them add their new questions -->
 </div><!-- end .container

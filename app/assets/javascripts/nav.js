@@ -4,11 +4,11 @@ $( document ).ready(function() {
 	$navigation_hamburger.on("click", function() {
 		console.log("clicked");
 		$navigation_list.toggle("fast");
-			// $navigation_list.toggleClass("visible");
-			$("main").toggleClass("lowered");
-			$("footer").toggleClass("lowered");
-			// $navigation_list.toggleClass("toggled");
-			$navigation_hamburger.toggleClass("hamburger_clicked");
-			stopImmediatePropagation();
+		$navigation_list.toggleClass("visible");
+		$("main").toggleClass("lowered");
+		$("footer").toggleClass("lowered");
+		// $navigation_list.toggleClass("toggled");
+		$navigation_hamburger.toggleClass("hamburger_clicked");
+		stopImmediatePropagation();
 	});
 });

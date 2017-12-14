@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get "new_customer" => "pages#new_customer"
   get "new_lead_confirmation_agile" => "pages#new_lead_confirmation_agile"
   get "competitors" => "pages#competitors"
+  get "mission" => "pages#mission"
   resources :leads
 
 end

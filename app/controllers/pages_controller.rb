@@ -28,5 +28,8 @@ class PagesController < ApplicationController
 
 	def competitors
 	end
+
+	def mission
+	end
 	
 end

@@ -25,5 +25,8 @@ class PagesController < ApplicationController
 
 	def new_lead_confirmation_agile
 	end
+
+	def competitors
+	end
 	
 end

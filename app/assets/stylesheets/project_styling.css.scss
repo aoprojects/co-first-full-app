@@ -23,7 +23,7 @@ p a {
 a:hover {
 	/*green*/
 	color: $green;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	text-decoration: none;
 }
 .action-area {
@@ -44,7 +44,8 @@ body {
 	border: 1px solid $green;
 	font-weight: 200;
 	a {
-		color: $green;
+		color: white;
+		font-weight: 200;
 	}
 }
 /*so that button text looks inline with the other nav elements*/

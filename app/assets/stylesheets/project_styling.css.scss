@@ -37,22 +37,27 @@ body {
 	font-weight: 100;
 }
 .btn-success {
-	background-color: transparent;
+	/*background-color: transparent;*/
 	border-radius: 0;
-	color: $light-green;
+	color: white;
+	background-color: $light-green;
 	border: 1px solid $green;
+	font-weight: 200;
 	a {
 		color: $green;
 	}
 }
 .btn-success:hover {
-	background-color: $light-green;
+	background-color: darken($light-green, 15%);
 	border-radius: 0;
-	border: 1px solid $green;
-	transition: 0.2s ease;
+	/*border: 1px solid $green;*/
+	border: 1px solid darken($green, 20%);
+	transition: 0.3s ease;
+	font-weight: 200;
 	a {
 		color: #eee !important;
 	}
+
 }
 .btn-success:clicked {
 	text-decoration: none;

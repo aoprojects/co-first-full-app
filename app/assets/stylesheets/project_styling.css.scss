@@ -94,6 +94,9 @@ h1, h2, h3 {
 	color: $green;
 	font-weight: 300;
 }
+.indented {
+	margin-left: 5%;
+}
 @media only screen and (min-width: 768px) {
 	img.icon-columns {
 	margin-top: 30px;
@@ -160,6 +163,9 @@ main p {
 	.question {
 		margin-bottom: 10px;
 	}
+}
+.pages_mission #mission-driven-section {
+	text-align: left;
 }
 #tagline {
 

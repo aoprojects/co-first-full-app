@@ -47,6 +47,19 @@ body {
 		color: $green;
 	}
 }
+/*so that button text looks inline with the other nav elements*/
+@media only screen and (min-width: 768px) {
+	nav .btn {
+		position: relative;
+		top: 10px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	nav .btn {
+		position: relative;
+		top: -5px;
+	}
+}
 .btn-success:hover {
 	background-color: darken($light-green, 15%);
 	border-radius: 0;

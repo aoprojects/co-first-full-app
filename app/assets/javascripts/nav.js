@@ -1,4 +1,7 @@
-$( document ).ready(function() {
+// $( document ).ready(function() {
+// $(window).load(function() {
+$(document).on('turbolinks:load', function() {
+	console.log("ready")
 	var $navigation_hamburger = $("#navigation-hamburger");
 	var $navigation_list = $("#navigation-list");
 	$navigation_hamburger.on("click", function() {

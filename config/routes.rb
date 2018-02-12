@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get "competitors" => "pages#competitors"
   get "mission" => "pages#mission"
   get "contribute" => "pages#contribute"
+  get "resource_received" => "pages#resource_received"
   resources :leads
 
 end

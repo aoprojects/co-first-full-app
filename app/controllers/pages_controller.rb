@@ -34,5 +34,8 @@ class PagesController < ApplicationController
 
 	def contribute 
 	end
+
+	def resource_received
+	end
 	
 end

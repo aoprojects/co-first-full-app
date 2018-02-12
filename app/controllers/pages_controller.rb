@@ -31,5 +31,8 @@ class PagesController < ApplicationController
 
 	def mission
 	end
+
+	def contribute 
+	end
 	
 end

@@ -17,48 +17,58 @@
     <input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5685057352105984">
   </div>
   <!-- Text input-->
-  <div class="required-control">
-    <label class="hidden" for="agilefield-3">Resource Name<span class="agile-span-asterisk"> *</span></label>
-    <div class="agile-field-xlarge agile-field">
-  	<input maxlength="250" id="agilefield-3" name="ticket" type="text" placeholder="What resource would you like to tell us about?" class="agile-height-default" required="">
-    </div>
-    <div class="agile-custom-clear"></div>
-  </div>
-  <!-- Text input-->
-  <div class="agile-group">
-    <label class="hidden" for="agilefield-1">Enter Name</label>
-    <div class="agile-field-xlarge agile-field">
-  	<input maxlength="250" id="agilefield-1" name="first_name" type="text" placeholder="Your name?" class="agile-height-default">
-    </div>
-    <div class="agile-custom-clear"></div>
-  </div>
-  <!-- Text input-->
-  <div class="agile-group">
-    <label class="hidden" for="agilefield-2">Enter Email</label>
-    <div>
-  	<input maxlength="250" id="agilefield-2" name="email" type="email" placeholder="Your email?" class="agile-height-default">
-    </div>
-    <div class="agile-custom-clear"></div>
-  </div>
-  <!-- Textarea -->
-  <div class="agile-group">
-    <label class="hidden" for="agilefield-4">Anything else you'd like us to know?</label>
-    <div class="agile-field-xlarge agile-field">
-      <textarea maxlength="250" id="agilefield-4" name="note" placeholder="Anything else you'd like us to know?" class="agile-height-default"></textarea>
-    </div>
-    <div class="agile-custom-clear"></div>
-  </div>
-  <!--recaptcha aglignment-->
-  <!-- Button -->
-  <div class="agile-group">
-    <label class="agile-label">&nbsp;</label>
-    <div class="agile-field agile-button-field">
-      <button type="submit" class="btn btn-success btn-lg">Tell Us About It</button>
-      <br><span id="agile-error-msg"></span>
-    </div>
-  </div>
-</fieldset>
-</form>
-<script type="text/javascript">
-(function(a){var b=a.onload,p=false;isCaptcha=false;if(p){a.onload="function"!=typeof b?function(){try{_agile_load_form_fields()}catch(a){}}:function(){b();try{_agile_load_form_fields()}catch(a){}}};var formLen=document.forms.length;for(i=0;i<formLen;i++){if(document.forms.item(i).getAttribute("id")== "agile-form"){a.document.forms.item(i).onsubmit=function(a){a.preventDefault();try{_agile_synch_form_v5(this)}catch(b){this.submit()}}}}})(window);
-</script>
+  <div class="row">
+    <div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12">
+      <section class="field-input-area">
+        <div>
+          <label class="hidden" for="agilefield-3">Resource Name<span class="agile-span-asterisk"> *</span></label>
+          <div class="agile-field-xlarge agile-field">
+        	<input maxlength="250" id="agilefield-3" name="ticket" type="text" placeholder="What resource would you like to tell us about?" class="agile-height-default" required="">
+          </div>
+          <div class="agile-custom-clear"></div>
+        </div>
+        <!-- Text input-->
+        <div>
+          <label class="hidden" for="agilefield-1">Enter Name</label>
+          <div class="agile-field-xlarge agile-field">
+        	<input maxlength="250" id="agilefield-1" name="first_name" type="text" placeholder="Your name?" class="agile-height-default">
+          </div>
+          <div class="agile-custom-clear"></div>
+        </div>
+        <!-- Text input-->
+        <div>
+          <label class="hidden" for="agilefield-2">Enter Email</label>
+          <div>
+        	<input maxlength="250" id="agilefield-2" name="email" type="email" placeholder="Your email?" class="agile-height-default">
+          </div>
+          <div class="agile-custom-clear"></div>
+        </div>
+        <!-- Textarea -->
+        <div class="agile-group">
+          <label class="hidden" for="agilefield-4">Anything else you'd like to add?</label>
+          <div class="agile-field-xlarge agile-field">
+            <textarea maxlength="250" id="agilefield-4" name="note" placeholder="Anything else you'd like us to know?" class="agile-height-default"></textarea>
+          </div>
+          <div class="agile-custom-clear"></div>
+        </div>
+        <!--recaptcha aglignment-->
+      </section>        
+        
+        <p><small>Thank you in advance!</small></p>
+        <!-- Button -->
+        <div class="agile-group">
+          <label class="agile-label">&nbsp;</label>
+          <div class="agile-field agile-button-field">
+            <button type="submit" class="btn btn-success btn-lg">Tell Us About It</button>
+            <br><span id="agile-error-msg"></span>
+          </div>
+        </div>
+      </fieldset>
+      </form>
+      <script type="text/javascript">
+      (function(a){var b=a.onload,p=false;isCaptcha=false;if(p){a.onload="function"!=typeof b?function(){try{_agile_load_form_fields()}catch(a){}}:function(){b();try{_agile_load_form_fields()}catch(a){}}};var formLen=document.forms.length;for(i=0;i<formLen;i++){if(document.forms.item(i).getAttribute("id")== "agile-form"){a.document.forms.item(i).onsubmit=function(a){a.preventDefault();try{_agile_synch_form_v5(this)}catch(b){this.submit()}}}}})(window);
+      </script>
+  </div><!-- end col -->
+</div><!-- end row -->
+<br>
+<br>

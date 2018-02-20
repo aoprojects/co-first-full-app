@@ -2,8 +2,19 @@
 <!-- provide custom subtitle for each page -->
 <% content_for(:subtitle) do %> | Thank You, Recource Recieved<% end %>
 
-<h1>Thank You For Your Submission!</h1>
-
-<p>Your resource will be added to our list, and will contribute to the creation of our product ranking system.</p>
+<!-- this page is for after they have signed up with agile crm via our form -->
 <br>
+<h1>Thanks for sharing your knowledge!</h1> 
+<h2>You're great.  (We may or may not email you with follow up questions.)</h2>
+<br>
+<div id="action-area">
+	<p>If you're not already buying from us, <%= link_to "apply to be our client here", new_customer_path %>.</p>
+	<p>You may also find our <%= link_to "Opportunities", opportunities_path %> interesting.</p></div>
+	<p><i class="fa fa-twitter green" aria-hidden="true"></i> &nbsp;Follow us on Twitter <%= link_to "https://twitter.com/consciousoffice", target: "none", alt: "Twitter" do %>
+		 @ConsciousOffice
+	<% end %></p>
+
+</div><!-- action area -->
+<br><br><br>
+
 <!-- todo insert cute thank you graphic with a tree or an earth being thankful/happy/grateful -->

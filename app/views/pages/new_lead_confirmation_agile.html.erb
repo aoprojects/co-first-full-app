@@ -1,10 +1,14 @@
+<!-- provide custom subtitle for each page -->
+<% content_for(:subtitle) do %> | Client Application Received<% end %>
 <!-- this page is for after they have signed up with agile crm via our form -->
-<br>
-<h2>Thank you for contacting us. <br>We will be in touch with you shortly.</h2>
-<br>
-<div id="action-area">
-	<p class="gray">While waiting for a reply, you may find our <%= link_to "Opportunities", opportunities_path %> interesting.</p>
-	<p>Or <%= link_to "share your sustainability knowledge", contribute_path, class: "btn btn-success btn-md" %> with us.</p>
-</div><!-- action area -->
+<div class="animated fadeInUp delay07s">
+	<br>
+	<h2>Thank you for contacting us. <br>We will be in touch with you shortly.</h2>
+	<br>
+	<div id="action-area">
+		<p class="gray">While waiting for a reply, you may find our <%= link_to "Opportunities", opportunities_path %> interesting.</p>
+		<p>Or <%= link_to "share your sustainability knowledge", contribute_path, class: "btn btn-success btn-md" %> with us.</p>
+	</div><!-- action area -->
+	<br><br><br>
+</div><!-- end animated area -->
 
-<br><br><br>

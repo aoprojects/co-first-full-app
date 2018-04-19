@@ -115,10 +115,17 @@ footer a, footer p {
 .green {
 	color: $green !important;
 }
-
 h1, h2, h3 {
 	color: $green;
 	font-weight: 300;
+}
+#home-page-banner {
+	width: 100vw;
+	height: 100vh;
+	background-color: $dark-green;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 .indented {
 	margin-left: 5%;
@@ -176,6 +183,10 @@ main p {
 	h1 {
 		font-size: 25px;
 	}	
+}
+#offering-section {
+	position: relative;
+	top: 90vw;
 }
 .pages_faq {
 

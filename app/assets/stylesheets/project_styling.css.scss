@@ -122,11 +122,12 @@ h1, h2, h3 {
 #home-page-banner {
 	padding-top: 10%;
 	width: 100vw;
-	height: 100vh;
-	background-color: lighten($dark-green, 50%);
-	position: absolute;
+/*	height: 100vh;*/
+	/*background-color: lighten($dark-green, 50%);*/
+	position: relative;
 	top: 0px;
 	left: 0px;
+	height: 100vh;
 }
 .indented {
 	margin-left: 5%;
@@ -186,8 +187,7 @@ main p {
 	}	
 }
 #offering-section, #action-area, footer {
-	position: relative;
-	top: 85vw;
+
 }
 .pages_faq {
 

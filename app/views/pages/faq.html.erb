@@ -1,6 +1,7 @@
 <!-- provide custom subtitle for each page -->
 <% content_for(:subtitle) do %> | FAQ<% end %>
-	<div class="container animated fadeInDown delay03s">
+<div class="container">
+	<div class="animated fadeInDown delay03s">
 		<h1 class="orange">Frequently Asked Questions</h1>
 		<div class="text-center">
 			<%= image_tag("flaticon-question-freepik.png", class: "a-bit-vertically-lower") %>
@@ -10,7 +11,7 @@
 		<div class="button-div text-right">
 			<!-- todo change this to a meaningful button -->
 			<%= link_to "Create an Account", new_customer_path, class: "btn btn-success" %>
-	</div>
+	</div><!-- end container -->
 	<section id="faq-section" class="animated fadeInUp delay09s">
 		<ol>
 			<!-- <h2>GENERAL</h2> -->
@@ -108,4 +109,4 @@
 		</ol>
 	</section>
 	<!-- todo  feedback area - let them add their new questions -->
-</div><!-- end .container
+</div><!-- end container -->

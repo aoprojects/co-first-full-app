@@ -1,7 +1,7 @@
 <!-- provide custom subtitle for each page -->
 <% content_for(:subtitle) do %> | Office Supplies<% end %>
 <div class="animated fadeInDown delay07s">
-	<div id="home-page-banner">		
+	<div id="home-page-banner" class="container">		
 		<div id="welcome-area" class="row">
 			<h1 id="tagline">Office Supplies for Sustainability</h1>
 		</div><!-- end #welcome-area -->
@@ -9,8 +9,8 @@
 			<div class="col-lg-offset-2 col-md-offset-2 col-lg-8 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12">
 				<div class="box text-center">
 					<p></p>
-					<p>To join our private list of regular buyers, plase join our community below.</p>
-					<p>Our ideal customers are mission-driven ventures with offices in the US that spend a minimum of $1000 USD per month on their office, breakroom, and janitorial items.</p>
+					<p>Our ideal customers are mission-driven ventures with offices in the US that spend a minimum of $1,000 USD per month collectively on their office, breakroom, and janitorial supplies.</p>
+					<p>To join our private list of regular buyers committed to the cause of environmental sustainability, please begin by signing up below.</p>
 				</div>
 				<p class="text-center action-area">
 					<button class="btn btn-success btn-lg"><%= link_to "Buy Your Supplies From Us", new_customer_path %></button>
@@ -19,7 +19,7 @@
 		</div>
 	</div><!-- end #home-page-banner -->
 	<div class="clearfix"></div>
-	<section id="offering-section">
+	<section id="offering-section" class="container">
 		<div class="well row">
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				<p class="hidden-xs"></p>
@@ -27,7 +27,7 @@
 				<!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 			</div>		
 			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-				<h3>Price Matching</h3>
+				<h3>Well Priced</h3>
 				<p>We make it as easy as possible for you to switch suppliers</p>  
 				<p>Simply upload your current pricing to our system and we'll work on a pricing plan that fits your budget and your sustainability goals.</p>
 				<button class="btn btn-success btn-lg"><%= link_to "Begin", new_customer_path %></button>
@@ -82,6 +82,6 @@
 		<p class="gray">Want to know more? &nbsp;We like that. &nbsp;Here's a list of some <%= link_to "Frequently Asked Questions", faq_path %>.</p>
 		<p class="gray">Or to collaborate, visit our <%= link_to "Opportunities Page", opportunities_path %>.</p></div>
 	</div><!-- action area -->
-	<br><br><br>
+	<br><br><br><br><br><br>
 			
 </div><!-- end animated area -->		

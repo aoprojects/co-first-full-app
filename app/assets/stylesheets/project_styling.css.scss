@@ -120,9 +120,10 @@ h1, h2, h3 {
 	font-weight: 300;
 }
 #home-page-banner {
+	padding-top: 10%;
 	width: 100vw;
 	height: 100vh;
-	background-color: $dark-green;
+	background-color: lighten($dark-green, 50%);
 	position: absolute;
 	top: 0px;
 	left: 0px;

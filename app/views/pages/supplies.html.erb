@@ -1,23 +1,25 @@
 <!-- provide custom subtitle for each page -->
 <% content_for(:subtitle) do %> | Office Supplies<% end %>
 <div class="animated fadeInDown delay07s">
-	<div id="home-page-banner" class="container">		
-		<div id="welcome-area" class="row">
-			<h1 id="tagline">Office Supplies for Sustainability</h1>
-		</div><!-- end #welcome-area -->
-		<div class="text-left row">
-			<div class="col-lg-offset-2 col-md-offset-2 col-lg-8 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12">
-				<div class="box text-center">
-					<p></p>
-					<p>Our ideal customers are mission-driven ventures with offices in the US that spend a minimum of $1,000 USD per month collectively on their office, breakroom, and janitorial supplies.</p>
-					<p>To join our private list of regular buyers committed to the cause of environmental sustainability, please begin by signing up below.</p>
+	<div class="icon-background">
+		<div id="home-page-banner" class="container">		
+			<div id="welcome-area" class="row">
+				<h1 id="tagline">Office Supplies for Sustainability</h1>
+			</div><!-- end #welcome-area -->
+			<div class="text-left row">
+				<div class="col-lg-offset-2 col-md-offset-2 col-lg-8 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12">
+					<div class="box text-center">
+						<p></p>
+						<p>Our ideal customers are mission-driven ventures with offices in the US that spend a minimum of $1,000 USD per month collectively on their office, breakroom, and janitorial supplies.</p>
+						<p>To join our private list of regular buyers committed to the cause of environmental sustainability, please begin by signing up below.</p>
+					</div>
+					<p class="text-center action-area">
+						<button class="btn btn-success btn-lg"><%= link_to "Buy Your Supplies From Us", new_customer_path %></button>
+					</p>
 				</div>
-				<p class="text-center action-area">
-					<button class="btn btn-success btn-lg"><%= link_to "Buy Your Supplies From Us", new_customer_path %></button>
-				</p>
 			</div>
-		</div>
-	</div><!-- end #home-page-banner -->
+		</div><!-- end #home-page-banner -->
+	</div><!-- end .icon-background -->		
 	<section id="offering-section" class="container">
 		<h2 class="text-center"><big>How Are We Different?</big></h2>
 		<br>

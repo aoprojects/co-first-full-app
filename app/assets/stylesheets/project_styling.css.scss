@@ -99,6 +99,15 @@ body {
 		height: 350px;
 	}
 } /*end media query*/
+.icon-background {
+	background-image: image-url("CO-background-pattern.png");
+	/*background-color: (225,225,225,0.3);*/
+	position: relative;
+	top: -80px;
+	left: 0px;
+	box-shadow: 0 0 15px gray;
+	background-position: center;
+}
 #faq-section {
 	text-align: left;
 }

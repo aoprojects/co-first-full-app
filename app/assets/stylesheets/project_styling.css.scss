@@ -37,6 +37,21 @@ a:hover {
 .align-right {
 	text-align: right !important;
 }
+.background-translucent-white {
+	background-color: white;
+	border-radius: 5px;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+@media only screen and (max-width: 800px) {
+	.background-translucent-white {
+		padding-left: 30px;
+		padding-right: 30px;
+		width: 90%;
+	}
+}
 body {
 	background: #fff;
 	color: black;
@@ -100,13 +115,17 @@ body {
 	}
 } /*end media query*/
 .icon-background {
-	background-image: image-url("CO-background-pattern.png");
+	background-image: image-url("CO-background-pattern-lightened.png");
 	/*background-color: (225,225,225,0.3);*/
 	position: relative;
 	top: -80px;
 	left: 0px;
 	box-shadow: 0 0 15px gray;
 	background-position: center;
+	height: 100vh;
+}
+.icon-background {
+
 }
 #faq-section {
 	text-align: left;
@@ -131,8 +150,6 @@ h1, h2, h3 {
 #home-page-banner {
 	padding-top: 10%;
 	width: 100vw;
-/*	height: 100vh;*/
-	/*background-color: lighten($dark-green, 50%);*/
 	position: relative;
 	top: 0px;
 	left: 0px;
